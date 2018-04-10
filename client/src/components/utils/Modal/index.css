@@ -1,0 +1,35 @@
+.Modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(1px);
+	background-color:rgba(255,255,255, 0.84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalBody {
+    background: white;
+    width: 750px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.22);
+}
+
+.ModalHeader {
+    color: #22374a;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+.ModalContent {
+    padding: 60px;
+}

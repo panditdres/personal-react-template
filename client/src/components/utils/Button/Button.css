@@ -1,0 +1,16 @@
+.Row {
+    display: flex;
+    flex-wrap: 'warp';
+}
+
+.Row > * {
+    margin: 10px;
+}
+
+.Row > *:first-child {
+    margin-left: 0px;
+}
+
+.Row > *:last-child {
+    margin-right: 0px;
+}
