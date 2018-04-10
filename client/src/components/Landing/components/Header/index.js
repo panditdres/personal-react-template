@@ -3,7 +3,7 @@ import styles from './index.css';
 
 const Header = () => (
     <div className={styles.Header}>
-        <strong>React Holy Grail</strong>
+        <strong>React Template</strong>
     </div> 
 );
 
